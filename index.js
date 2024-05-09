@@ -8,10 +8,14 @@ document.getElementById("myForm").addEventListener("submit", function(event) {
 
    
     var displayDiv = document.getElementById("displayData");
-    displayDiv.innerHTML = "<h2>Form Data</h2>" +
-                            "<p>Email: " + email + "</p>" +
-                            "<p>Password: " + password + "</p>" +
-                            "<p>Checkbox Checked: " + isChecked + "</p>";
+    // displayDiv.innerHTML = "<h2>Form Data</h2>" +
+    //                         "<p>Email: " + email + "</p>" +
+    //                         "<p>Password: " + password + "</p>" +
+    //                         "<p>Checkbox Checked: " + isChecked + "</p>";
+    //                         var displayDiv = document.getElementById("displayData");
+                            alert("Email: " + email + "\n" +
+                                "Password: " + password
+                            );
 
     
     console.log("Password:", password);
